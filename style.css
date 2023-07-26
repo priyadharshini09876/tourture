@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(0,0,0,0.7) url("img3.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: darken;
+}
+.head{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 14vh;
+    font-family: 'popins',sans-serif;
+}
+.align{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#big{
+    padding-top: 2%;
+    padding-left: 2%;
+    font-size: 5vh;
+}
+/* .img{
+    width: 200vh;
+    height: 50vh;
+} */
+#con2{
+    padding-left: 45vh;
+    font-size: 11vh;
+    font-family: 'popins',sans-serif;
+    color: white;
+    padding-top: 20vh;
+}
+#con3{
+    padding-left: 55vh;
+    font-size: 9vh;
+    font-family: 'popins',sans-serif;
+    color: white;
+    padding-top: 4vh;
+}
+.btn{
+    padding-left: 78vh;
+    padding-top: 3%;
+    justify-content: space-evenly;
+}
+#btnl{
+    padding-left: 3%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+    padding-top: 2%;
+    font-family: 'popins',sans-serif;
+    font-size: x-large;
+    color: white;
+    background: transparent;
+    border-radius: 6px;
+    border-color: white;
+    
+}
+#btns{
+    padding-left: 3%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+    padding-top: 2%;
+    font-family: 'popins',sans-serif;
+    font-size: x-large;
+    margin-left: 3%;
+    border-radius: 6px;
+    border-color: white;
+    border: none;
+    
+}
